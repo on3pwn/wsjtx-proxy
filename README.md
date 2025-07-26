@@ -60,7 +60,8 @@ No pip packages required.
    ```bash
    python3 udp_proxy.py
 4. Configure WSJT-X to use the proxy port (2237 by default)
-5. Connect tools like GridTracker to the proxy's output port
+5. Connect tools like GridTracker to the proxy's output port (usually port 4444)
+    - Make sure gridtracker shows status messages such as "Receive/Transmit/Decode"
 6. After transmission, the proxy will:
     - inject real TX power into ADIF logs
     - transparently forward everything to clients
