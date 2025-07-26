@@ -46,9 +46,9 @@
 #     - Additional software (such as gridtracker) must be configured to port 4444 instead of 2237
 # 
 # Author  : Christian Vanguers (ON3PWN)
-# License : MIT License (or GPLv3 — choose based on your preference)
+# License : MIT License (or GPLv3)
 # Date    : 2025-07-26
-# Repo    : https://github.com/yourusername/wsjtx-udp-proxy
+# Repo    : https://github.com/on3pwn/wsjtx-proxy/
 
 import socket
 import threading
